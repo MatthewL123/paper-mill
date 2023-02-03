@@ -100,14 +100,8 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
-cargoAcceptance:
-- TYRE
-- VBOD
-- VENG
-- VPTS
+cargoAcceptance: []
 cargoProduction:
-- ENSP
-- FMSP
 - VEHI
 colour: 141
 fundCostMultiplier: 145
@@ -140,7 +134,7 @@ layout:
     - 9
 name: Assembly Plant
 placement: anywhere
-probabilityInGame: 1
+probabilityInGame: 10
 probabilityMapGen: 5
 prospectChance: 0
 tiles:
@@ -274,4 +268,4 @@ tiles:
       filename: industries/assembly-plant/19.png
       left: -31
       top: -49
-type: secondary
+type: primary
